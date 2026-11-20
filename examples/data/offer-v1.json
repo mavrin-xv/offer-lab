@@ -1,0 +1,16 @@
+{
+  "name": "Stock cleanup service",
+  "price": 450,
+  "dream_outcome": {"score": 6, "text": "accurate inventory"},
+  "likelihood": {"score": 4, "proof": [], "proof_kills": []},
+  "time_delay": {"score": 6, "text": "results in about a month"},
+  "effort": {"score": 6, "text": "owner exports data, answers questions, checks our work"},
+  "objections": ["i do not want an outsider in my store", "my bookkeeper already does this", "will it stay fixed", "too expensive"],
+  "stack": [
+    {"item": "Monthly stock reconciliation", "kills": ["my bookkeeper already does this"], "cost_to_deliver": 60, "perceived_value": 400},
+    {"item": "Weekly strategy call", "kills": [], "cost_to_deliver": 120, "perceived_value": 300}
+  ],
+  "guarantee": {"name": "", "number": "", "window_days": 30, "on_miss": "refund"},
+  "mechanism": {"name": "Our proven process", "competitor_could_say": true},
+  "scarcity": {"claim": "Only 3 spots left", "reason": ""}
+}

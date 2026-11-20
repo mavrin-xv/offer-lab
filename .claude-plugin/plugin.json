@@ -1,0 +1,12 @@
+{
+  "name": "offer-lab",
+  "description": "Offer building as agent skills: niche scoring with evidence caps, an idea reality check, positioning with claim triage, a value-stack offer with a named guarantee, price surveys, an offer page linter and a validation plan judged against pre-written lines.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Artem Mavrin",
+    "url": "https://github.com/mavrin-xv"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/mavrin-xv/offer-lab",
+  "repository": "https://github.com/mavrin-xv/offer-lab"
+}

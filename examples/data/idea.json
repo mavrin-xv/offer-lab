@@ -1,0 +1,27 @@
+{
+  "idea": "Monthly stock count cleanup for online shops with 200+ SKUs on two or more sales channels, flat monthly fee",
+  "claims": [
+    "Shops oversell when counts drift between channels",
+    "Everyone needs this"
+  ],
+  "evidence": [
+    {"type": "conversation", "note": "owner A: oversold 14 orders in the spring sale, refunded all", "pain_named": true},
+    {"type": "conversation", "note": "owner B: counts drift every month, fixes them on Sunday nights", "pain_named": true},
+    {"type": "conversation", "note": "owner C: no issue, single warehouse, one channel", "pain_named": false},
+    {"type": "conversation", "note": "owner D: bookkeeper spends a day a month reconciling", "pain_named": true},
+    {"type": "past_spend", "note": "owner D pays the bookkeeper about 300 a month, a third of it on stock"},
+    {"type": "commitment", "note": "owner A booked a 45-minute screen share of the spreadsheet"},
+    {"type": "commitment", "note": "owner B introduced a seller friend with the same problem"},
+    {"type": "desk", "note": "14 forum threads in 90 days titled with 'inventory count wrong' or similar"},
+    {"type": "compliment", "note": "owner C: great idea, I would totally use it"}
+  ],
+  "failure_modes": [
+    {"risk": "owners will not give store access to an outsider", "fatal": false, "test": "ask 5 owners for read-only access this week"},
+    {"risk": "an inventory app adds automatic sync and the pain goes away", "fatal": false, "fix": "sell the monthly audit and the fix, not the sync"},
+    {"risk": "one cleanup is enough, nobody renews", "fatal": false}
+  ],
+  "competition": ["the bookkeeper they already pay", "an inventory sync app", "do nothing and refund oversells"],
+  "blockers": [],
+  "effort_weeks": 3,
+  "reward_note": "5 shops at a flat monthly fee covers the month; renewals are the open question"
+}

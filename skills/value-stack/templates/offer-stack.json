@@ -1,0 +1,17 @@
+{
+  "name": "<offer name>",
+  "price": 0,
+  "dream_outcome": {"score": 5, "text": "<the result, in the buyer's words, with a number or date>"},
+  "likelihood": {"score": 5, "proof": ["<proof you can show today>"],
+                 "proof_kills": ["<objection the proof answers>"]},
+  "time_delay": {"score": 5, "text": "<how soon the first result shows>"},
+  "effort": {"score": 5, "text": "<what the buyer has to do>"},
+  "objections": ["<reason a best-fit buyer says no>", "<another>"],
+  "stack": [
+    {"item": "<what they get>", "kills": ["<objection it answers>"], "cost_to_deliver": 0, "perceived_value": 0}
+  ],
+  "guarantee": {"name": "<name>", "number": "<what result>", "window_days": 0,
+                "on_miss": "<what you do if it misses>", "kills": ["<objection>"]},
+  "mechanism": {"name": "<named method>", "competitor_could_say": false},
+  "scarcity": {"claim": "", "reason": ""}
+}

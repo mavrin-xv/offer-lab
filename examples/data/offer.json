@@ -1,0 +1,20 @@
+{
+  "name": "The Shelf-Match Month",
+  "price": 450,
+  "dream_outcome": {"score": 8, "text": "counts in every channel match the shelf on the 1st of the month, so no oversells in the next sale"},
+  "likelihood": {"score": 7, "proof": ["before and after count report from two pilot shops", "the 3-pass count method written out"],
+                 "proof_kills": ["will it stay fixed"]},
+  "time_delay": {"score": 3, "text": "first matched count in 7 days, then on the 1st of each month"},
+  "effort": {"score": 2, "text": "owner grants read-only access once; we do the rest and send a one-page report"},
+  "objections": ["i do not want an outsider in my store", "my bookkeeper already does this", "will it stay fixed", "too expensive"],
+  "stack": [
+    {"item": "Monthly 3-pass count match across all channels", "kills": ["my bookkeeper already does this"], "cost_to_deliver": 60, "perceived_value": 400},
+    {"item": "Read-only access setup with a written access policy", "kills": ["i do not want an outsider in my store"], "cost_to_deliver": 10, "perceived_value": 100},
+    {"item": "Bundle and returns map, so counts stay right between cleanups", "kills": ["will it stay fixed"], "cost_to_deliver": 40, "perceived_value": 250},
+    {"item": "One-page change report your bookkeeper can use", "kills": ["my bookkeeper already does this"], "cost_to_deliver": 15, "perceived_value": 100}
+  ],
+  "guarantee": {"name": "Shelf-Match Guarantee", "number": "spot check of 50 SKUs matches the shelf within 1 unit",
+                "window_days": 7, "on_miss": "we redo the month free, and if it still misses you pay nothing", "kills": ["too expensive"]},
+  "mechanism": {"name": "3-pass count match (shelf, channel, returns)", "competitor_could_say": false},
+  "scarcity": {"claim": "4 new shops per month", "reason": "two people, each count takes a full day"}
+}

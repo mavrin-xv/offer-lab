@@ -1,0 +1,27 @@
+deal,outcome,traits
+D01,lost,no stock mismatch; price shopper; under 50 skus; uses spreadsheets
+D02,lost,no stock mismatch; single channel; under 50 skus; uses spreadsheets
+D03,won,founder runs ops; pays a bookkeeper; sells on 2+ channels; stock mismatch last quarter
+D04,won,200+ skus; founder runs ops; price shopper; sells on 2+ channels; uses spreadsheets
+D05,lost,agency manages ops; no stock mismatch; price shopper; under 50 skus; uses spreadsheets
+D06,won,200+ skus; founder runs ops; pays a bookkeeper; stock mismatch last quarter
+D07,won,founder runs ops; pays a bookkeeper; sells on 2+ channels; stock mismatch last quarter
+D08,lost,agency manages ops; price shopper; single channel; under 50 skus
+D09,lost,agency manages ops; price shopper; single channel; uses spreadsheets
+D10,won,founder runs ops; sells on 2+ channels; stock mismatch last quarter; uses spreadsheets
+D11,lost,no stock mismatch; single channel; under 50 skus; uses spreadsheets
+D12,lost,agency manages ops; no stock mismatch; single channel; under 50 skus
+D13,lost,no stock mismatch; price shopper; under 50 skus; uses spreadsheets
+D14,won,founder runs ops; pays a bookkeeper; sells on 2+ channels; stock mismatch last quarter
+D15,won,200+ skus; founder runs ops; pays a bookkeeper; stock mismatch last quarter
+D16,won,200+ skus; pays a bookkeeper; sells on 2+ channels; uses spreadsheets
+D17,lost,no stock mismatch; pays a bookkeeper; price shopper; under 50 skus; uses spreadsheets
+D18,lost,no stock mismatch; price shopper; single channel; uses spreadsheets
+D19,lost,price shopper; single channel; under 50 skus; uses spreadsheets
+D20,lost,agency manages ops; price shopper; single channel; uses spreadsheets
+D21,won,founder runs ops; pays a bookkeeper; sells on 2+ channels; single channel; uses spreadsheets
+D22,lost,no stock mismatch; price shopper; single channel; under 50 skus
+D23,won,200+ skus; pays a bookkeeper; stock mismatch last quarter; uses spreadsheets
+D24,won,pays a bookkeeper; sells on 2+ channels; stock mismatch last quarter; uses spreadsheets
+D25,won,200+ skus; sells on 2+ channels; stock mismatch last quarter; uses spreadsheets
+D26,won,200+ skus; founder runs ops; stock mismatch last quarter; uses spreadsheets
